@@ -1,5 +1,16 @@
 extract-loader
 ==============
+
+Forked due to css-loader > [2.0.0] URL used multiple times across imported files produces "undefined" rather than expected URL.
+
+Pull request merge failed due to corrupt node v. 6 build.
+
+https://github.com/peerigon/extract-loader/pull/59
+https://travis-ci.com/github/peerigon/extract-loader/builds/114328314
+
+Since I need the correct URLs, I forked this repo and merged the commit from @jonathonwalz
+
+==============
 **webpack loader to extract HTML and CSS from the bundle.**
 
 [![](https://img.shields.io/npm/v/extract-loader.svg)](https://www.npmjs.com/package/extract-loader)
