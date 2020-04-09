@@ -1,5 +1,5 @@
 # Project specific
-lib
+#lib
 test/dist
 examples/**/dist
 
